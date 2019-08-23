@@ -12,7 +12,8 @@ background: #B9ABCB;
 }
 
 .header {
-position: fixed ;
+position: fixed;
+z-index: 2;
 /* left: 32.1%;*/
 /*right: 36.59%; */
 top: 0%;
@@ -32,7 +33,7 @@ font-weight: bold;
 font-size: 30px;
 line-height: 35px;
 display: flex;
-align-items: stretch;
+align-items: center;
 text-align: center;
 
 color: #514975;
@@ -58,21 +59,55 @@ h2 {position: absolute;
 
 }
 
+.button1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 6.83%;
+    right: 91.84%;
+    top: 6.64%;
+    bottom: 95.91%;
+    z-index: 1;
+    
+    background : #c4c4c4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #514975;
+    padding: 15px 15px
+}
+
 body {
     background: #e5e5e5;
 }
 
+ul {
+    list-style-type: none;
+    line-height: 30px;
+    letter-spacing: .5px;
+    left: 50px;
+}
+
 .bg {
     box-sizing: border-box;
-    /* top: 60;
-    bottom: 7.04%; */
+    top: 90px;
+    position: relative;
+    bottom: 10%;
     width: 80%;
-    height: 90%;
+    height: 80%;
     left: 200px;
-    /* top : 96px; */
-    padding: 20px;
+    top : 10%;
+    padding: 60px 200px 45px 100px;
     border: 0px solid;
-    /* float: left; */
+    float: left;
     background: #514975;
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -86,27 +121,34 @@ body {
     color: #e5e5e5;
 }
 .proj {
-    position: absolute;
-    width: 876px;
+    position: relative;
+    /* width: 876px; */
+    /* height: 325px; */
+    /* left: 126px; */
+    /* top: 392px; */
+    width: 70%;
     height: 325px;
-    left: 126px;
-    top: 392px;
-
+    left: 300px;
+    top: 450px;
+    /* padding: 10px; */
     background: #c4c4c4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
+   
+      
     
 
 }
 
 .protext {
+    writing-mode: horizontal-tb;
+    /* position: relative; */
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
     display: flex;
-    align-items: stretch;
+    align-items: flex-start;
     text-align: left;
     letter-spacing: 0.05em;
     
