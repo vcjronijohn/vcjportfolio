@@ -14,32 +14,26 @@ background: #B9ABCB;
 .header {
 position: fixed;
 z-index: 2;
-/* left: 32.1%;*/
-/*right: 36.59%; */
 top: 0%;
-/* top: 43.66%; */
-/* bottom: 7.04%; */
-/*  */
 box-sizing: border-box;
 width: 100%;
 padding: 20px;
 border: 0px solid;
-/* float: inline-start; */
 background: #faf9ed;
-/*  */
 font-family: Roboto, sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 30px;
 line-height: 35px;
-display: flex;
+/* display: flex; */
 align-items: center;
 text-align: center;
 
 color: #514975;
 }
 
-h2 {position: absolute;
+h2 {
+    /* position: absolute; */
     width: 123px;
     height: 35px;
     left: 15px;
@@ -50,10 +44,12 @@ h2 {position: absolute;
     font-weight: bold;
     font-size: 30px;
     line-height: 35px;
-    display: flex;
+    /* display: flex; */
+    flex-direction: column;
     align-items: center;
     text-align: center;
     letter-spacing: 0.05em;
+    flex-flow: column;
     
     color: #514975;
 
@@ -63,12 +59,11 @@ h2 {position: absolute;
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 6.83%;
+    left: 7.83%;
     right: 91.84%;
     top: 6.64%;
     bottom: 95.91%;
     z-index: 1;
-    
     background : #c4c4c4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
@@ -93,7 +88,7 @@ ul {
     list-style-type: none;
     line-height: 30px;
     letter-spacing: .5px;
-    left: 50px;
+    /* left: 50px; */
 }
 
 .bg {
@@ -102,19 +97,19 @@ ul {
     position: relative;
     bottom: 10%;
     width: 80%;
-    height: 80%;
+    height: 90%;
     left: 200px;
     top : 10%;
-    padding: 60px 200px 45px 100px;
+    padding: 160px 200px 45px 100px;
     border: 0px solid;
     float: left;
     background: #514975;
     font-family: Roboto, sans-serif;
     font-style: normal;
     /*font-weight: bold;*/
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
+    font-size: 20px;
+    line-height: 25px;
+    /* display: flex; */
     align-items: flex-start;
     text-align: left;
     letter-spacing: 0.05em;
@@ -129,28 +124,33 @@ ul {
     width: 70%;
     height: 325px;
     left: 300px;
-    top: 450px;
-    /* padding: 10px; */
+    top: -400px;
+    padding: 10px;
+    display: flex;
     background: #c4c4c4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    column-count: auto;
+    align-items: stretch;
    
-      
-    
-
+  
 }
 
 .protext {
     writing-mode: horizontal-tb;
-    /* position: relative; */
+    position: relative;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
-    display: flex;
-    align-items: flex-start;
-    text-align: left;
+    /* padding-block-start: 10px; */
+    padding-block-end: 10px;
+    flex-flow: column;
+    /* display: flex; */
+    /* align-items: stretch; */
+    /* text-align: left; */
     letter-spacing: 0.05em;
+    column-width: 250px;
     
     color: #514975;
 }

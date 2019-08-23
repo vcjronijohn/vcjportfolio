@@ -1,7 +1,7 @@
-font-family: 'Roboto', sans-serif;
-font-family: 'Sunflower', sans-serif;
-font-family: 'Trade Winds', cursive;
-font-family: 'Open Sans', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Sunflower', sans-serif; */
+/* font-family: 'Trade Winds', cursive; */
+/* font-family: 'Open Sans', sans-serif; */
 @font-face {
     font-family: 'league-gothic';
     src: 'fonts/League-Gothic/LeagueGothic-CondensedRegular.otf';
@@ -43,7 +43,7 @@ h1 {
       display: flex;
       align-items: center;
       text-align: center;
-      color: white;
+      color: #514975;
       padding: 15px 15px
   }
   .button3 {
