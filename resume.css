@@ -7,56 +7,76 @@ body {
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto;
     grid-template-areas: 
-        "header header header header"
+        "header none none header"
         "main . . sidebar"
-        "main . . ."
-        "main . . ."
+        "main none none none"
+        "main none none none"
         "main . . sidebar"
-        "main . . ."
-        "main . . ."
+        "main none none none"
+        "main none none none"
         "main . . sidebar"
-        "main . . ."
-        "main . . ."
+        "main none none none"
+        "main none none none"
         "main . . sidebar"
-        "main . . ."
-        "main . . ."
+        "main none none none"
+        "main none none none"
         "main . . sidebar"
-        "main . . ."
-        "main . . ."
+        "main none none none"
+        "main none none none"
         "main . . sidebar"
-        "main . . ."
-        "main . . ."
+        "main none none none"
+        "main none none none"
         "main . . sidebar"
-        "main . . ."
-        "main . . ."
+        "main none none none"
+        "main none none none"
         "main . . sidebar"
-        "main . . ."
-        "main . . ."
+        "main none none none"
+        "main none none none"
         "main . . sidebar"
-        "main . . ."
-        "main . . ."
+        "main none none none"
+        "main none none none"
         "main . . sidebar"
-        "main . . ."
-        "main . . ."
+        "main none none none"
+        "main none none none"
         "main . . sidebar"
-        "main . . ."
-        "main . . ."
+        "main none none none"
+        "main none none none"
         "main . . sidebar"
-        "main . . ."
-        "main . . ."
+        "main none none none"
+        "main none none none"
         "main . . sidebar"
-        "main . . ."
-        "main . . ."
+        "main none none none"
+        "main none none none"
         ". footer footer ."
         "main . . sidebar"
-        "main . . ."
-        "main . . ."
+        "main none none none"
+        "main none none none"
         
 
+  }
+  
+  .header1 {
+    grid-area: "main";
+    justify-items: start;
+    grid-column-start: 1;
+  
+  }
+
+  .header2 {
+    grid-area: "main";
+    justify-items: stretch;
+    grid-column-start: 2;
+    grid-column-end: 3;  
+}
+
+  .header3 {
+    grid-area: "sidebar";
+    justify-items: end;
   }
 
   .tenure {
       grid-area: "sidebar";
+      justify-items: end;
 
 
   }
@@ -64,15 +84,36 @@ body {
   .emp {
 
     grid-area: "main";
+    justify-items: start;
+    grid-column-start: 1;
+    grid-column-end: 2;
+ ;
+
 
   }
 
   .exp {
 
     grid-area: "main";
+    justify-items: stretch;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
   }
 
+  .title {
+
+    grid-area: "main";
+    justify-items: start;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+  }
   .edu {
 
     grid-area: "main";
+    justify-items: start;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
   }
