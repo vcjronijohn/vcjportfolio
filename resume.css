@@ -1,0 +1,78 @@
+body {
+
+    font-family: 'Sunflower', sans-serif;
+}
+.resume {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header header header header"
+        "main . . sidebar"
+        "main . . ."
+        "main . . ."
+        "main . . sidebar"
+        "main . . ."
+        "main . . ."
+        "main . . sidebar"
+        "main . . ."
+        "main . . ."
+        "main . . sidebar"
+        "main . . ."
+        "main . . ."
+        "main . . sidebar"
+        "main . . ."
+        "main . . ."
+        "main . . sidebar"
+        "main . . ."
+        "main . . ."
+        "main . . sidebar"
+        "main . . ."
+        "main . . ."
+        "main . . sidebar"
+        "main . . ."
+        "main . . ."
+        "main . . sidebar"
+        "main . . ."
+        "main . . ."
+        "main . . sidebar"
+        "main . . ."
+        "main . . ."
+        "main . . sidebar"
+        "main . . ."
+        "main . . ."
+        "main . . sidebar"
+        "main . . ."
+        "main . . ."
+        "main . . sidebar"
+        "main . . ."
+        "main . . ."
+        ". footer footer ."
+        "main . . sidebar"
+        "main . . ."
+        "main . . ."
+        
+
+  }
+
+  .tenure {
+      grid-area: "sidebar";
+
+
+  }
+
+  .emp {
+
+    grid-area: "main";
+
+  }
+
+  .exp {
+
+    grid-area: "main";
+  }
+
+  .edu {
+
+    grid-area: "main";
+  }
