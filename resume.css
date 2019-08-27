@@ -55,6 +55,16 @@ body {
 
   }
   
+  h1 {
+
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 16pt;
+
+  }
+
   .header1 {
     grid-area: "main";
     justify-items: start;
@@ -64,7 +74,7 @@ body {
 
   .header2 {
     grid-area: "main";
-    justify-items: stretch;
+    justify-self: center;
     grid-column-start: 2;
     grid-column-end: 3;  
 }
