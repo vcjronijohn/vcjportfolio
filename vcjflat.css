@@ -63,7 +63,7 @@ h2 {
     right: 91.84%;
     top: 6.64%;
     bottom: 95.91%;
-    z-index: 1;
+    z-index: 2;
     background : #c4c4c4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
@@ -79,6 +79,32 @@ h2 {
     color: #514975;
     padding: 15px 15px
 }
+
+.button2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 7.83%;
+    right: 91.84%;
+    top: 26.64%;
+    bottom: 95.91%;
+    z-index: 2;
+    background : #c4c4c4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #514975;
+    padding: 20px 20px
+}
+
 
 body {
     background: #e5e5e5;
@@ -100,7 +126,7 @@ ul {
     height: 90%;
     left: 200px;
     top : 10%;
-    padding: 160px 200px 45px 100px;
+    padding: 160px 100px 45px 100px;
     border: 0px solid;
     float: left;
     background: #514975;

@@ -2,7 +2,37 @@ body {
 
     font-family: 'Sunflower', sans-serif;
 }
+
+.button1{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 91.83%;
+  right: 7.84%;
+  top: 6.64%;
+  bottom: 95.91%;
+  z-index: 2;
+  background : #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #514975;
+  padding: 15px 15px
+}
+
 .resume {
+    padding: 5%;
+    width: 100%;
+    /* left: 20px; */
+    background: #faf9ed;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto;
@@ -87,6 +117,10 @@ body {
   .tenure {
       grid-area: "sidebar";
       justify-items: end;
+      grid-column-start: 4;
+      /* grid-column-end: five; */
+    
+
 
 
   }
@@ -96,8 +130,9 @@ body {
     grid-area: "main";
     justify-items: start;
     grid-column-start: 1;
-    grid-column-end: 2;
- ;
+    grid-column-end: 3;
+    
+ 
 
 
   }
@@ -105,9 +140,9 @@ body {
   .exp {
 
     grid-area: "main";
-    justify-items: stretch;
+    justify-items: end;
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
 
   }
 
@@ -124,6 +159,6 @@ body {
     grid-area: "main";
     justify-items: start;
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
 
   }
